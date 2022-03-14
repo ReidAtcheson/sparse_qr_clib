@@ -1,0 +1,15 @@
+[package]
+name = "sparse_qr_clib"
+crate-type = ["rlib","cdylib"]
+version = "0.1.0"
+edition = "2021"
+[lib]
+name = "sparse_qr_clib"
+crate-type = ["rlib","cdylib"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+sparse_qr_rust = { git = "https://github.com/ReidAtcheson/sparse_qr_rust.git",  rev = "1f8e04a264e52b681c0b0e2812a7fd5205505cbf" }
