@@ -12,4 +12,4 @@ crate-type = ["rlib","cdylib"]
 
 [dependencies]
 
-sparse_qr_rust = { git = "https://github.com/ReidAtcheson/sparse_qr_rust.git",  rev = "1f8e04a264e52b681c0b0e2812a7fd5205505cbf" }
+sparse_qr_rust = { git = "https://github.com/ReidAtcheson/sparse_qr_rust.git",  rev = "afc00ffd35db562336017135b12ab6b4879976da" }
