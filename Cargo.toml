@@ -11,4 +11,4 @@ crate-type = ["rlib","cdylib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sparse_qr_rust = { git = "https://github.com/ReidAtcheson/sparse_qr_rust.git",  rev = "915fae7a557236e1b20c18bf391901e838eb1062"}
+sparse_qr_rust = { git = "https://github.com/ReidAtcheson/sparse_qr_rust.git",  rev = "96a4a23235475dd1716d2861f13b6f9959c456ab"}
